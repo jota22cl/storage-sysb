@@ -3,14 +3,72 @@
     {
       "url": "/",
       "name": "Home",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "icon": "menu-icon tf-icons bx bx-burst-hover bx-home-circle",
       "slug": "pages-home"
     },
+
     {
-      "url": "/page-2",
-      "icon": "menu-icon tf-icons bx bx-file",
-      "name": "Page 2",
-      "slug": "pages-page-2"
+      "url": "/",
+      "name": "Maestros",
+      "slug": "Maestros",
+      "icon": "menu-icon tf-icons bx bx-burst-hover bx-chevrons-right",
+      "submenu": [
+        {
+          "url": "/monedas",
+          "name": "Monedas",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bx-dollar",
+          "slug": "monedas"
+        },
+        {
+          "url": "/ccostos",
+          "name": "C.Costos",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bx-captions",
+          "slug": "ccostos"
+        },
+        {
+          "url": "/gcomuns",
+          "name": "Gastos Comunes",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bx-vector",
+          "slug": "gcomuns"
+        },
+        {
+          "url": "/pseguros",
+          "name": "Prima de Seguros",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bxs-badge-dollar",
+          "slug": "prima-de-seguros"
+        },
+        {
+          "url": "/ciudades",
+          "name": "Ciudades",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bxs-city",
+          "slug": "ciudades"
+        },
+        {
+          "url": "/comunas",
+          "name": "Comunas",
+          "icon": "menu-icon tf-icons bx bx-burst-hover bxs-buildings",
+          "slug": "comunas"
+        }
+      ]
+    },
+
+    {
+      "url": "/clientes",
+      "name": "Clientes",
+      "icon": "menu-icon tf-icons bx bx-burst-hover bx-buildings",
+      "slug": "clientes"
+    },
+    {
+      "url": "/bodegas",
+      "name": "Bodegas",
+      "icon": "menu-icon tf-icons bx bx-burst-hover bx-grid-alt",
+      "slug": "bodegas"
+    },
+    {
+      "url": "/contratos",
+      "name": "Contratos",
+      "icon": "menu-icon tf-icons bx bx-burst-hover bx-pen",
+      "slug": "contratos"
     }
   ]
 }
